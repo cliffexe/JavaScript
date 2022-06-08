@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" href="#" />
+        <link rel="stylesheet" href="css/estilo.css" />
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <title>Sistema de Classificação</title>
+    
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:_dlc_DocId msdt:dt="string">CYV6RQYTM43E-2014649285-48499</mso:_dlc_DocId>
+<mso:_dlc_DocIdItemGuid msdt:dt="string">5e362aea-27f3-4e8a-8c35-830e3540a087</mso:_dlc_DocIdItemGuid>
+<mso:_dlc_DocIdUrl msdt:dt="string">https://institutoios.sharepoint.com/sites/docs/conteudo/_layouts/15/DocIdRedir.aspx?ID=CYV6RQYTM43E-2014649285-48499, CYV6RQYTM43E-2014649285-48499</mso:_dlc_DocIdUrl>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+    <body>
+        <div class="container mt-5">
+            <form>
+                <select id="product-select" class="form-control custom-select">
+                    <option value="0" disabled selected>
+                        Selecione um produto ...
+                    </option>
+                    <option value="sony">TV Sony 4K</option>
+                    <option value="samsung">TV Samsung 4K</option>
+                    <option value="tcl">TV TCL 4K</option>
+                    <option value="lg">TV LG 4K</option>
+                    <option value="phillips">TV Phillips 4K</option>
+                </select>
+
+                <input
+                    type="number"
+                    id="rating-control"
+                    class="form-control"
+                    step="0.1"
+                    max="5"
+                    placeholder="Rate 1 - 5"
+                    disabled
+                />
+            </form>
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Televisão 4K</th>
+                        <th>Classificação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="sony">
+                        <td>TV Sony 4k</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                    </tr>
+
+                    <tr class="samsung">
+                        <td>TV Samsung 4K</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                    </tr>
+                    <tr class="tcl">
+                        <td>TV TCL 4K</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                    </tr>
+                    <tr class="lg">
+                        <td>TV LG 4K</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                    </tr>
+                    <tr class="phillips">
+                        <td>TV Phillips 4K</td>
+                        <td>
+                            <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                            </div>
+                            <span class="number-rating"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>

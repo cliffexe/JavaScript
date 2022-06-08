@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css2?family=Lusitana&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Arsenal&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap);
+
+body {
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2012/08/18/11278/80c65e43e6244085d3cc994d6d21ea2a.jpg);
+    background-size:cover;
+        color: rgb(231, 224, 216);
+    font-family: Lusitana;
+}
+header {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 8px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.171);
+    border: 1px solid rgba(255, 255, 255, 0);
+    line-height: 200%;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 10px rgba(253, 248, 242, 0.548);
+    font-size: large;
+}
+h1 {
+    text-shadow: 0px 0px 10px rgba(253, 248, 242, 0.548);
+}
+
+p {
+    font-size: large;
+    line-height: 30px;
+}
+
+img {
+    border-radius: 10px;
+}
+.fonte1 {
+    font-family: Arsenal;
+}
+
+.fonte2 {
+    font-family: Rubik;
+}
+
+.fonte3 {
+    font-family: 'Josefin Sans';
+}
